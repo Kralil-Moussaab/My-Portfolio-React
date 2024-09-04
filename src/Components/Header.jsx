@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <header className="relative md:sticky md:top-0 container bg-white dark:bg-gray-900 z-20 mx-auto md:flex justify-between py-2 max-width transition-colors duration-200">
+    <header className="relative md:sticky md:top-0 container bg-white dark:bg-gray-900 z-20 mx-auto md:flex justify-between py-2 max-width ">
       <div className="flex justify-between items-center py-2 md:py-3">
         <NavLink to="/">
           <img className="w-14" src={logos.logo} alt="logo" />

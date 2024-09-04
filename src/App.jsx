@@ -8,7 +8,7 @@ import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 function App() {
   return (
-    <div className="min-h-screen bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-200">
+    <div className=" transition-colors duration-200">
       <Router>
         <Header />
         <Routes>
