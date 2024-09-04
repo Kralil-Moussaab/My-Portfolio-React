@@ -35,7 +35,7 @@ function Header() {
         </div>
       </div>
       <nav
-        className={`absolute md:static w-full md:w-auto z-50 bg-white dark:bg-gray-900 transition-colors duration-200  md:top-auto shadow-dark  md:shadow-none left-0 right-0 md:flex justify-center items-center ${
+        className={`absolute md:static w-full md:w-auto z-50 bg-white dark:bg-gray-900 md:top-auto shadow-dark  md:shadow-none left-0 right-0 md:flex justify-center items-center ${
           isOpen ? "block" : "hidden"
         }`}
       >
